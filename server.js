@@ -32,7 +32,7 @@ const port = process.env.PORT || 4000;
 app.use(express.json());
 app.use(
   cors({
-    origin: process.env.FRONTEND_ORIGIN || 'https://eventifytheeventmanagementplatform.netlify.app/',
+    origin: process.env.FRONTEND_ORIGIN || 'https://eventifytheeventmanagementplatform.netlify.app',
     credentials: true,
   })
 );
